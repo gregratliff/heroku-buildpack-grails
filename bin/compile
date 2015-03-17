@@ -93,7 +93,7 @@ cd $CACHE_DIR
 
 #install libjpeg62
 echo "-----> Installing libjpeg62"
-apt-get install libjpeg62
+sudo apt-get install libjpeg62
 
 if [ -f $BUILD_DIR/grailsw ] ; then
     chmod +x $BUILD_DIR/grailsw
