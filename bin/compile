@@ -91,6 +91,10 @@ echo "done"
 
 cd $CACHE_DIR
 
+#install libjpeg62
+echo "-----> Installing libjpeg62
+apt-get install libjpeg62
+
 if [ -f $BUILD_DIR/grailsw ] ; then
     chmod +x $BUILD_DIR/grailsw
     GRAILS_CMD="./grailsw"
